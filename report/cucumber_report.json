@@ -1,0 +1,942 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Switching accepting and dissmissing alerts",
+    "line": 1,
+    "id": "switching-accepting-and-dissmissing-alerts",
+    "tags": [],
+    "uri": "features\\acceptAlerts.feature",
+    "elements": [
+      {
+        "id": "switching-accepting-and-dissmissing-alerts;the-user-is-able-to-switch-windows-and-tabs",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "The user is able to switch windows and tabs",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The user opens the test automation practice web page",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29983000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "The user checks that the page title is \"Practice Page\"",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "The user accepts the alert message",
+            "match": {
+              "location": "step-definitions\\alerts.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "The user dismisses the alert message",
+            "match": {
+              "location": "step-definitions\\alerts.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "conf\\cucumber.conf.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test autocomplete for country input",
+    "line": 2,
+    "id": "test-autocomplete-for-country-input",
+    "tags": [],
+    "uri": "features\\autocomplete.feature",
+    "elements": [
+      {
+        "id": "test-autocomplete-for-country-input;user-enters-two-characters-and-chooses-a-country-starting-with-the-two-letters",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "User enters two characters and chooses a country starting with the two letters",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user opens the test automation practice web page",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 773000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The user checks that the page title is \"Practice Page\"",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The user enters \"RO\" in the autosuggest input field",
+            "match": {
+              "location": "step-definitions\\autoSuggest.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The user waits for the autosuggest results to be visible",
+            "match": {
+              "location": "step-definitions\\autoSuggest.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 550000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "The user clicks on the \"Romania\" results in autosuggest",
+            "match": {
+              "location": "step-definitions\\autoSuggest.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "\"Romania\" appears in the autosuggest field",
+            "match": {
+              "location": "step-definitions\\autoSuggest.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "conf\\cucumber.conf.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-autocomplete-for-country-input;user-enters-two-characters-and-chooses-a-country-starting-with-the-two-letters",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User enters two characters and chooses a country starting with the two letters",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user opens the test automation practice web page",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 981000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The user checks that the page title is \"Practice Page\"",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The user enters \"RO\" in the autosuggest input field",
+            "match": {
+              "location": "step-definitions\\autoSuggest.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The user waits for the autosuggest results to be visible",
+            "match": {
+              "location": "step-definitions\\autoSuggest.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 560000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "The user clicks on the \"Morocco\" results in autosuggest",
+            "match": {
+              "location": "step-definitions\\autoSuggest.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "\"Morocco\" appears in the autosuggest field",
+            "match": {
+              "location": "step-definitions\\autoSuggest.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "conf\\cucumber.conf.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-autocomplete-for-country-input;user-enters-two-characters-and-chooses-a-country-starting-with-the-two-letters",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "User enters two characters and chooses a country starting with the two letters",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user opens the test automation practice web page",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 865000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The user checks that the page title is \"Practice Page\"",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The user enters \"IC\" in the autosuggest input field",
+            "match": {
+              "location": "step-definitions\\autoSuggest.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The user waits for the autosuggest results to be visible",
+            "match": {
+              "location": "step-definitions\\autoSuggest.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 542000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "The user clicks on the \"Iceland\" results in autosuggest",
+            "match": {
+              "location": "step-definitions\\autoSuggest.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 559000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "\"Iceland\" appears in the autosuggest field",
+            "match": {
+              "location": "step-definitions\\autoSuggest.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "conf\\cucumber.conf.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Selecting a value from the dropdown",
+    "line": 1,
+    "id": "selecting-a-value-from-the-dropdown",
+    "tags": [],
+    "uri": "features\\dropdown.feature",
+    "elements": [
+      {
+        "id": "selecting-a-value-from-the-dropdown;the-user-selects-option2-from-the-dropdown",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "The user selects option2 from the dropdown",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The user opens the test automation practice web page",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 764000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "The user checks that the page title is \"Practice Page\"",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "The user clicks on the option \"Option2\" in the dropdown",
+            "match": {
+              "location": "step-definitions\\dropdown.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "conf\\cucumber.conf.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "My first automated test",
+    "line": 1,
+    "id": "my-first-automated-test",
+    "tags": [],
+    "uri": "features\\firstTest.feature",
+    "elements": [
+      {
+        "id": "my-first-automated-test;navigate-to-practice-web-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Navigate to practice web page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The user opens the test automation practice web page",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 645000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "The user checks that the page title is \"Practice Page\"",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "The name input field is visible",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I type \"Razvan\" in the name input field",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I check that the \"Razvan\" text is shown in the name input field",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "The user clicks the \"3\" radio button",
+            "match": {
+              "location": "step-definitions\\clickSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "The user clicks the \"1\" radio button",
+            "match": {
+              "location": "step-definitions\\clickSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "The user clicks the \"2\" radio button",
+            "match": {
+              "location": "step-definitions\\clickSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "conf\\cucumber.conf.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Getting text from elements on the page",
+    "line": 1,
+    "id": "getting-text-from-elements-on-the-page",
+    "tags": [],
+    "uri": "features\\getText.feature",
+    "elements": [
+      {
+        "id": "getting-text-from-elements-on-the-page;the-user-is-able-get-text-from-the-elements-of-the-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "The user is able get text from the elements of the page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The user opens the test automation practice web page",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "The user checks that the page title is \"Practice Page\"",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "The user gets the text from the table and checks it",
+            "match": {
+              "location": "step-definitions\\getTextGetValue.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "The user gets the value from the Hide button and checks it",
+            "match": {
+              "location": "step-definitions\\getTextGetValue.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "conf\\cucumber.conf.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Getting specific text from table on the page",
+    "line": 1,
+    "id": "getting-specific-text-from-table-on-the-page",
+    "tags": [],
+    "uri": "features\\getTextFromTable.feature",
+    "elements": [
+      {
+        "id": "getting-specific-text-from-table-on-the-page;the-user-is-able-get-text-from-the-elements-of-the-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "The user is able get text from the elements of the page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The user opens the test automation practice web page",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 935000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "The user checks that the page title is \"Practice Page\"",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "The user gets the text from row \"3\" and column \"2\" from the table and checks it is \"Learn SQL in Practical + Database Testing from Scratch\"",
+            "match": {
+              "location": "step-definitions\\getTextFromTable.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "conf\\cucumber.conf.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Test for mouse hover example",
+    "line": 1,
+    "id": "test-for-mouse-hover-example",
+    "tags": [],
+    "uri": "features\\hover.feature",
+    "elements": [
+      {
+        "id": "test-for-mouse-hover-example;the-user-is-able-mouse-hover-from-mouse-hover-example-and-clicks-reload",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "The user is able mouse hover from Mouse Hover example and clicks reload",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The user opens the test automation practice web page",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 696000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "The user checks that the page title is \"Practice Page\"",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "The user hover mouse on button Mouse Hover example",
+            "match": {
+              "location": "step-definitions\\hover.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1145000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The user is waiting for the menu to appear",
+            "match": {
+              "location": "step-definitions\\hover.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The user clicks \"Reload\" from menu Mouse Hover example",
+            "match": {
+              "location": "step-definitions\\hover.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The user waits for page reloaded",
+            "match": {
+              "location": "step-definitions\\hover.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "conf\\cucumber.conf.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Switching windows, tabs and iFrames",
+    "line": 1,
+    "id": "switching-windows,-tabs-and-iframes",
+    "tags": [],
+    "uri": "features\\switchWindowTabAndFrame.feature",
+    "elements": [
+      {
+        "id": "switching-windows,-tabs-and-iframes;the-user-is-able-to-switch-windows,-tabs-and-iframes",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "The user is able to switch windows, tabs and iFrames",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The user opens the test automation practice web page",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "The user checks that the page title is \"Practice Page\"",
+            "match": {
+              "location": "step-definitions\\practiceWebsiteSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "The user switches to the second window",
+            "match": {
+              "location": "step-definitions\\switchWindowTabAndIframe.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "The user switches to the second tab",
+            "match": {
+              "location": "step-definitions\\switchWindowTabAndIframe.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7471000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "conf\\cucumber.conf.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
